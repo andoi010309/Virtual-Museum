@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="Pannellum/pannellum.js"></script>
+    <link rel="stylesheet" href="Pannellum/pannellum.css">
+    <title>Document</title>
+    <style>
+        #panorama {
+            width: 100%;
+            height: 600px; /* You can adjust the height based on your preference */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="panorama"></div>
+
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "Sources/test.jpg", // Replace with your photosphere image URL
+            "autoLoad": true
+        });
+    </script>
+</body>
+</html>

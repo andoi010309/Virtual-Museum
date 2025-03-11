@@ -1,0 +1,158 @@
+body {
+    background-image: url(../Sources/test-room.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: hsl(0, 0%, 5%);
+    user-select: none;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Title {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    position: fixed;
+    margin-top: 9px;
+}
+
+.Header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-bottom: 30px;
+    background: linear-gradient(rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    height: 80px;
+}
+
+.restartButton {
+    position: fixed;
+    right: 50px;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.navButton {
+    position: fixed;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navPage {
+    top: 0px;
+    right: 0;
+    position: fixed;
+    background-color: hsl(0, 0%, 0%);
+    height: 200px;
+    margin-right: -25px;
+    padding-left: 0px;
+    padding-right: 20px;
+    overflow: hidden;
+    width: 0px;
+    border-bottom-left-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+
+.navPage.show {
+    margin-top: 0px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+.navPage.close {
+    margin-top: 8px;
+    height: 0px;
+    transition: 0.3s;
+}
+
+.navCloseIcon {
+    top: 8px;
+    background: none;
+    border: none;
+    position: fixed;  
+    right: -50px; 
+    cursor: pointer;
+
+}
+
+.navOptions {
+    color: white;
+    background-color: transparent;
+    width: 220px;
+    margin-left: -12px;
+    border: none;
+    padding-block: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.navOptions:hover {
+    background-color: hsl(0, 0%, 16%);
+    width: 220px;
+    margin-left: -12px;
+    border: none;
+    padding-block: 10px;
+    transition: 0.4s;
+}
+
+.menutitle {
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.room-picture-container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-left: 0;
+    border: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.startDescription {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: black;
+}
+
+.enterButton {
+    padding: 20px 70px;
+    border-radius: 50px;
+    margin-top: -90px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    
+}
+
+.enterButton:hover {
+    font-size: large;
+    box-shadow: 0 0 50px white;
+    padding: 18px 60px;
+    transition: 0.3s;
+}

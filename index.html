@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheets/index.css">
+    <script type="text/javascript" src="Pannellum/pannellum.js"></script>
+    <link rel="stylesheet" href="Pannellum/pannellum.css">
+    <style>
+        #panorama {
+            position: fixed;
+            margin-top: -1000px;
+            left: 0;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <title>Virtual Museum</title>
+</head>
+<body>
+    
+    <div id="panorama"></div>
+
+    
+    <header id="headerCont" class="Header"></header>
+    <a href="index.html"><h1 class="Title">Virtual Museum</h1></a>
+
+    <div class="rightButtons" align="right">
+        <button id="restartButton" class="restartButton"><img src="Sources/restartIcon.png" width="50"></button>
+        <button class="navButton" id="navButton"><img src="Sources/navIcon.png" width="50"></button>
+    </div>
+
+    <div id="navPage" class="navPage">
+    <div id="navContents" class="navContents" align="center">
+        <p class="menutitle">MENU</p>
+        <button class="navCloseIcon" id="navClose"><img src="Sources/navCloseIcon.png" width="50"></button>
+        <button class="navOptions">About US</button> <br>
+        <button class="navOptions">About EVRSHS</button>
+        <button class="navOptions">Survey</button>
+    </div>
+</div>
+    
+
+    
+    <footer id="startDescription" class="startDescription" align="center">
+        <button id="enterButton" class="enterButton">EXPLORE</button>
+        <p>A virtual exploration of <strong>EVRSHS</strong> New Campus</p>
+    </footer>
+
+
+    <script>
+        pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": "Sources/test.jpg", // Replace with your photosphere image URL
+            "autoLoad": true
+        });
+    </script>
+<script src="JavaScripts/index.js"></script>
+</body>
+</html>
