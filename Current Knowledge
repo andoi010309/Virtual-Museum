@@ -17,6 +17,16 @@ Slight issue:
 -im really sorry but we do need it for proper movement so that the users dont get lost
 -and if the room/place is restricted then you can just continue other appropriate place
 
+
+
+
+
+
+
+
+
+
+
 + Pannellum's function and its syntax.
  - Hotspots: mainly for adding buttons inside the panorama (responsive positioning)
  - sceneId: used to identify which scene needed to be rendered
