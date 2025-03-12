@@ -1,12 +1,14 @@
 Good news, ive learned the pannellum library's functionally, syntax, and its adjustment, this took me like 5 hours (which ended at 1 AM)[foreshadowing].
 the thing you suggested me within the panorama is:
  -Adding mouseover (hover) that can technically show up a text information which is Possible to add 
-  (but its not much of a quality with its hightlight shape, the "object" upon hovering over. Instead, it will be shown as a "i" symbol) really unfortunate ik, its possible but it requires more javascripting and im not entirely expert at doing so.
+  (but its not much of a quality with its hightlight shape, the "object" upon hovering over. Instead, it will be shown as a "i" symbol)
+   really unfortunate ik, its possible but it requires more javascripting and im not entirely expert at doing so.
 
 Slight issue:
  -scene changing dont seem to work, although it is trying to render the next panorama when clicking the next panorama button
   -updated: apparently the autoLoad = "true" makes the primary/first scene (panorama) Locked, its like "while the statement is true, then keep doing it". 
-   (Total use of time is 7 hours = almost 3 AM)[Like i knew the autoLoad makes it a repeating to load/render (i had this sense due to familiarizing the so-called "infinite-loop" error on C++ with the do-while statement) 
+   (Total use of time is 7 hours = almost 3 AM)[Like i knew the autoLoad makes it a repeating to load/render 
+   (i had this sense due to familiarizing the so-called "infinite-loop" error on C++ with the do-while statement) 
     but i just ended up having long ahh time looking at other line of code for what was main issue]
 
 
