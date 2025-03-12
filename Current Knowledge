@@ -4,7 +4,7 @@
  - panorama: used for linking the panorama file (mostly required file path if its separated to its folder)
 
 
-the syntax:
+The Syntax:
 "hotSpots": [
     {
         // Hotspot 1 properties
@@ -15,7 +15,7 @@ the syntax:
     // ... more hotspots ...
 ]
 
-The Full Syntax
+The Full Syntax:
 
 "room2": { // sceneId: "room2"
             "type": "equirectangular",
