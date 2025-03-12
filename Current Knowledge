@@ -1,1 +1,4 @@
-
++ Pannellum's function and its syntax.
+ - Hotspots: mainly for adding buttons inside the panorama (responsive positioning)
+ - sceneId: used to identify which scene needed to be rendered
+ - panorama: used for linking the panorama file (mostly required file path if its separated to its folder)
