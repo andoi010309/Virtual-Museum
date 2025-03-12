@@ -2,3 +2,41 @@
  - Hotspots: mainly for adding buttons inside the panorama (responsive positioning)
  - sceneId: used to identify which scene needed to be rendered
  - panorama: used for linking the panorama file (mostly required file path if its separated to its folder)
+
+
+the syntax:
+"hotSpots": [
+    {
+        // Hotspot 1 properties
+    },
+    {
+        // Hotspot 2 properties
+    },
+    // ... more hotspots ...
+]
+
+The Full Syntax
+
+"room2": { // sceneId: "room2"
+            "type": "equirectangular",
+            "panorama": "Sources/Room2.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 10,
+                    "yaw": -150,
+                    "type": "scene",
+                    "text": "Return to MidPoint",
+                    "sceneId": "MidPoint",
+                    "cssClass": "nav-hotspot"
+                },
+                {
+                    "pitch": -5,
+                    "yaw": 120,
+                    "type": "info",
+                    "text": "Ancient artifacts exhibit.",
+                    "cssClass": "info-hotspot"
+                }
+            ]
+        }
+    },
+
