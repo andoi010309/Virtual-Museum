@@ -32,9 +32,9 @@ The Full Syntax:
                 {
                     "pitch": -5,
                     "yaw": 120,
-                    "type": "info",
-                    "text": "Ancient artifacts exhibit.",
-                    "cssClass": "info-hotspot"
+                    "type": "info",  //type of the button
+                    "text": "Ancient artifacts exhibit.", // a text information upon hovering the button
+                    "cssClass": "info-hotspot" //a class for css (styling)
                 }
             ]
         }
