@@ -17,16 +17,16 @@ The Syntax:
 
 The Full Syntax:
 
-"room2": { // sceneId: "room2"
+"example": {                                 // sceneId: "example"
             "type": "equirectangular",
-            "panorama": "Sources/Room2.jpg",
+            "panorama": "Sources/Room2.jpg", //panorama file
             "hotSpots": [
                 {
                     "pitch": 10,
                     "yaw": -150,
                     "type": "scene",
                     "text": "Return to MidPoint",
-                    "sceneId": "MidPoint",
+                    "sceneId": "MidPoint",   //a function that leads/render to another sceneId
                     "cssClass": "nav-hotspot"
                 },
                 {
