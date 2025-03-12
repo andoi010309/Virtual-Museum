@@ -3,6 +3,9 @@ the thing you suggested me within the panorama is:
  -Adding mouseover (hover) that can technically show up a text information which is Possible to add 
   (but its not much of a quality with its hightlight shape, the "object" upon hovering over. Instead, it will be shown as a "i" symbol) really unfortunate ik, its possible but it requires more javascripting and im not entirely expert at doing so.
 
+Slight issue:
+ -scene changing dont seem to work, although it is trying to render the next panorama when clicking the next panorama button
+
 
 + Pannellum's function and its syntax.
  - Hotspots: mainly for adding buttons inside the panorama (responsive positioning)
