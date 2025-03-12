@@ -5,6 +5,7 @@ the thing you suggested me within the panorama is:
 
 Slight issue:
  -scene changing dont seem to work, although it is trying to render the next panorama when clicking the next panorama button
+  -updated: apparently the autoLoad = "true" makes the primary/first scene (panorama) Locked, its like "while the statement is true, then keep doing it".
 
 
 + Pannellum's function and its syntax.
