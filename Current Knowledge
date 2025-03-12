@@ -30,9 +30,9 @@ The Full Syntax:
                     "cssClass": "nav-hotspot"
                 },
                 {
-                    "pitch": -5,
+                    "pitch": -5, //a vertical angle adjustment
                     "yaw": 120,
-                    "type": "info",  //type of the button
+                    "type": "info",  //type of the button (there are only two options, such as INFO and SCENE, as a default choices.)
                     "text": "Ancient artifacts exhibit.", // a text information upon hovering the button
                     "cssClass": "info-hotspot" //a class for css (styling)
                 }
@@ -40,3 +40,6 @@ The Full Syntax:
         }
     },
 
+
+
+the pitch and yaw within the hotSpots is for adjusting its original position (they are responsive from the user's input drag)
