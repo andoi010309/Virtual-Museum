@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheets/index.css">
+    <script type="text/javascript" src="Pannellum/pannellum.js"></script>
+    <link rel="stylesheet" href="Pannellum/pannellum.css">
+    <style>
+        #panorama {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+        }
+
+
+        .pnlm-controls {
+            position: fixed;
+            top: 80px;
+            left: -100px;
+            
+        }
+
+        .pnlm-fullscreen-toggle-button {
+            position: fixed;
+            top: 120px;
+        }
+
+        .pnlm-title-box {
+            color: transparent;
+            background: transparent;
+            height: 0px;
+            border-top-left-radius: 90%;
+            border-top-right-radius: 90%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .pnlm-panorama-info {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .custom-hotspot {
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    </style>
+    <title>Virtual Museum</title>
+</head>
+<body>
+
+    <div id="wallPaper" class="wallPaper"></div>
+    
+    <div id="panorama"></div>
+    
+    <header id="headerCont" class="Header"></header>
+    <a href="index.html"><h1 class="Title">Virtual Museum</h1></a>
+
+    <div class="rightButtons" align="right">
+        <button id="restartButton" class="restartButton"><img src="Sources/restartIcon.png" width="50"></button>
+        <button class="navButton" id="navButton"><img src="Sources/navIcon.png" width="50"></button>
+    </div>
+
+    <div id="navPage" class="navPage">
+    <div id="navContents" class="navContents" align="center">
+        <p class="menutitle">MENU</p>
+        <button class="navCloseIcon" id="navClose"><img src="Sources/navCloseIcon.png" width="50"></button>
+        <button class="navOptions">About US</button> <br>
+        <button class="navOptions">About EVRSHS</button>
+        <button class="navOptions">Survey</button>
+    
+    </div>
+    
+    
+    <div id="room-info" class="roomName" align="center">
+        <h1 id="titleRoomName" class="titleRoomName">testname</h1>
+        <hr id="lineSeparate" class="lineSeparate">
+        <p id="roomDescription" class="roomDescription">This is a description of the current place</p>
+    </div>
+    
+    <footer id="startDescription" class="startDescription" align="center">
+        <button id="enterButton" class="enterButton">EXPLORE</button>
+        <p>A virtual exploration of <strong>EVRSHS</strong> New Campus</p>
+    </footer>
+
+
+    <script>
+
+        
+
+
+        pannellum.viewer('panorama', {   
+            "default": {
+                "firstScene": "MidPoint",
+                "sceneFadeDuration": 1000,
+                "autoLoad": true
+            },
+        
+            
+
+            "scenes": {
+                "MidPoint": {
+                    "title": "test",
+                    "author": "testing frfr",
+                    "pitch": -3,
+                    "yaw": 80,
+                    "type": "equirectangular",
+                    "panorama": "Sources/MidPoint.jpg",
+                    "hotSpots": [
+                        {
+                            "pitch": -2.1,
+                            "yaw": 85,
+                            "type": "scene",
+                            "text": "Covered Court",
+                            "sceneId": "CoveredCourt",
+                            
+                        }
+                    ]
+
+                    
+                },
+        
+                "CoveredCourt": {
+                    "pitch": -3,
+                    "yaw": 80,
+                    "type": "equirectangular",
+                    "panorama": "Sources/test2.jpg",
+                    "hotSpots": [
+                        {
+                            "pitch": -1.1,
+                            "yaw": 50,
+                            "type": "scene",
+                            "text": "MidPoint",
+                            "sceneId": "MidPoint",
+                        }
+                    ]
+                }
+            }
+        });
+
+
+
+        </script>
+<script src="JavaScripts/index.js"></script>
+</body>
+</html>
+
