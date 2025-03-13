@@ -2,4 +2,4 @@ Github is case-sensitive.
 in other words, if some parts are missing on the output that means some label couldnt match due to case difference.
 
 
-The website will now require strong internet in order to load
+The website will now require strong internet in order to fully load.
