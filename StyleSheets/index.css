@@ -247,6 +247,7 @@ a {
     right: 0;
     bottom: 0;
     overflow: auto;
+    pointer-events: none;
 }
 
 .pnlm-author-box::-webkit-scrollbar-track {
