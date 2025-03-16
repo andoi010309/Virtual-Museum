@@ -42,6 +42,7 @@ pannellum.viewer('panorama', {
 
         "CoveredCourt": {
             "title": "Covered Court",
+            "author": "(Description)",
             "hfov": "150",
             "pitch": -3,
             "yaw": -1,
@@ -59,6 +60,7 @@ pannellum.viewer('panorama', {
 
         "ScienceLab1": {
             "title": "Science Lab Room",
+            "author": "(Description)",
             "hfov": "150",
             "pitch": -3,
             "yaw": 5,
@@ -85,6 +87,7 @@ pannellum.viewer('panorama', {
 
         "ScienceLab2": {
             "title": "Science Lab Room",
+            "author": "(Description)",
             "hfov": "150",
             "pitch": -3,
             "yaw": 50,
