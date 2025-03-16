@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheets/index.css">
+    <script type="text/javascript" src="Pannellum/pannellum.js"></script>
+    <link rel="stylesheet" href="Pannellum/pannellum.css">
+    <link rel="icon" type="image/png" href="Sources/VirtualMuseumIcon.png">
+    <title>Virtual Museum</title>
+</head>
+<body>
+
+    <div id="wallPaper" class="wallPaper"></div>
+    
+    <div id="panorama"></div>
+    
+    <header id="headerCont" class="Header"></header>
+    <a href="index.html"><h1 class="Title">Virtual Museum</h1></a>
+
+    <div class="rightButtons" align="right">
+        <button id="restartButton" class="restartButton"><img src="Sources/restartIcon.png" width="50"></button>
+        <button class="navButton" id="navButton"><img src="Sources/navIcon.png" width="50"></button>
+    </div>
+
+    <div id="navPage" class="navPage">
+    <div id="navContents" class="navContents" align="center">
+        <p class="menutitle">MENU</p>
+        <button class="navCloseIcon" id="navClose"><img src="Sources/navCloseIcon.png" width="50"></button>
+        <a href=""><button class="navOptions">About US</button></a>
+        <a href=""><button class="navOptions">About EVRSHS</button></a>
+        <a href=""><button class="navOptions">Survey</button></a>
+    
+    </div>
+    
+    
+    <div id="room-info" class="roomName" align="center">
+        <h1 id="panorama-title" class="titleRoomName"></h1>
+        <p id="panorama-author" class="roomDescription"></p>
+    </div>
+    
+    <footer id="startDescription" class="startDescription" align="center">
+        <button id="enterButton" class="enterButton">EXPLORE</button>
+        <p>A virtual exploration of <strong>EVRSHS</strong> New Campus</p>
+    </footer>
+
+
+<script src="JavaScripts/Panorama.js"></script>
+<script src="JavaScripts/index.js"></script>
+</body>
+</html>
+

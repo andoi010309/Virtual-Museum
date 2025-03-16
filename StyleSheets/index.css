@@ -1,0 +1,267 @@
+body {
+    background-image: url(../Sources/background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-color: hsl(0, 0%, 5%);
+    user-select: none;
+}
+
+.wallPaper {
+    position: fixed;
+    background-image: url(../Sources/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 100%;
+    transition: 1s;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Title {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    position: fixed;
+    margin-top: 9px;
+    z-index: 1;
+}
+
+.Header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-bottom: 30px;
+    background: linear-gradient(rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    height: 80px;
+    z-index: 1;
+}
+
+.restartButton {
+    position: fixed;
+    right: 50px;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.navButton {
+    position: fixed;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.navPage {
+    top: 0px;
+    right: 0;
+    position: fixed;
+    background-color: hsl(0, 0%, 0%);
+    height: 200px;
+    margin-right: -25px;
+    padding-left: 0px;
+    padding-right: 20px;
+    overflow: hidden;
+    width: 0px;
+    border-bottom-left-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navPage.show {
+    margin-top: 0px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+.navPage.close {
+    margin-top: 8px;
+    height: 0px;
+    transition: 0.3s;
+}
+
+.navCloseIcon {
+    top: 8px;
+    background: none;
+    border: none;
+    position: fixed;  
+    right: -50px; 
+    cursor: pointer;
+    
+}
+
+.navOptions {
+    color: white;
+    background-color: transparent;
+    width: 220px;
+    margin-left: -12px;
+    border: none;
+    padding-block: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.navOptions:hover {
+    background-color: hsl(0, 0%, 16%);
+    width: 220px;
+    margin-left: -12px;
+    border: none;
+    padding-block: 10px;
+    transition: 0.4s;
+}
+
+.menutitle {
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.room-picture-container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding-left: 0;
+    border: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.startDescription {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: black;
+}
+
+.enterButton {
+    padding: 20px 70px;
+    border-radius: 50px;
+    margin-top: -90px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    font-size: 25px;
+    
+}
+
+.enterButton:hover {
+    font-size: 30px;
+    box-shadow: 0 0 50px white;
+    transition: 0.3s;
+}
+
+.roomName {
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0);
+    height: 0px;
+    transition: 1s;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    pointer-events: none;
+}
+
+.titleRoomName {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+
+
+#panorama {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+
+.pnlm-controls {
+    position: fixed;
+    top: 80px;
+    left: -100px;
+    
+}
+
+.pnlm-fullscreen-toggle-button {
+    position: fixed;
+    top: 120px;
+}
+
+.pnlm-title-box {
+    background-color: hsla(0, 0%, 0%, 0.623);
+    color: white;
+    height: 0px;
+    font-size: 40px !important;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    padding-top: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+.pnlm-author-box {
+    text-align: center;
+    padding-inline: 20%;
+    font-size: 18px !important;
+    height: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.pnlm-author-box::-webkit-scrollbar-track {
+    background-color: green;
+    position: fixed;
+    width: 40px;
+}
+
+.pnlm-panorama-info {
+    color: white;
+    font-size: larger;
+    text-align: center;
+    position: fixed;
+    height: 00px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
