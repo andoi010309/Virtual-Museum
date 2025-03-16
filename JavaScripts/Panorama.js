@@ -10,7 +10,7 @@ pannellum.viewer('panorama', {
     "scenes": {
         "MidPoint": {
             "title": "MidPoint",
-            "author": "The definitive map of our school, centered on its vital core. This map guides you from the building's central area, the 'MidPoint,' outwards to all classrooms, offices, and facilities. Experience the school's layout as it radiates from its heart, ensuring you always know your location.",
+            "author": "(Description)",
             "hfov": "150",
             "pitch": -2,
             "yaw": 140,
