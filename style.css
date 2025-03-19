@@ -1,0 +1,26 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: ;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background: #000080;
+    padding: 5px;
+    text-align: center;
+}
