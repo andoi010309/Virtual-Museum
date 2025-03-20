@@ -1,0 +1,219 @@
+body {
+    background-image: url(../Sources/background.jpg);
+    background-position-y: center;
+    user-select: none;
+}
+
+.title {
+    font-size: 45px;
+}
+
+img {
+    pointer-events: none;
+}
+
+h1, p {
+    text-decoration: none;
+    color: white;
+    opacity: 100%;
+    pointer-events: none;
+    user-select: none;
+} 
+
+p {
+    font-size: 20px;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: repeating-linear-gradient(blue, yellow);
+    opacity: 50%;
+    z-index: -100;
+}
+
+.contents {
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    right: 15%;
+    position: fixed;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    border-radius: 50px;
+    border:1px solid black;
+    overflow: hidden;
+}
+
+.menuOpen {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding-top: 3px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.backOpen:hover {
+    padding-left: 50px;
+    transition: 0.3s;
+}
+
+.menuClose {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding-top: 3px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    z-index: -10;
+    transition: 0.4s;
+}
+
+.backClose:hover {
+    padding-left: 50px;
+    transition: 0.3s;
+}
+
+.menuContents {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    height: 0px;
+    width: 0px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.menuTitle {
+    font-size: 25px;
+    right: 90px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.menuOptions {
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.menuOption {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding-block: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menuOption:hover {
+    background-color: hsl(0, 0%, 11%);
+    transition: 0.3s;
+}
+
+
+.textContents {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    position: fixed;
+    background: transparent;
+    height: 380px;
+    left: 2%;
+    right: 1%;
+    bottom: 4%;
+    overflow: auto;
+    padding-block: 30px;
+}
+
+.textContents::-webkit-scrollbar {
+    background-color: transparent;
+}
+    
+.textContents::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 50px;    
+}
+    
+.textContents::-webkit-scrollbar-track {
+        margin-block: 20px;
+        margin-right: 5px;
+}
+
+.texts1 {
+    background: transparent;
+    height: 230px;
+    width: 400px;
+    backdrop-filter: blur(40px);
+    border-radius: 50px;
+    padding-inline: 40px;
+    padding-block: 20px;
+	box-shadow: 0 0 20px black;
+    transition: 0.3s;
+}
+.texts1:hover {
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+.texts2 {
+    background: transparent;
+    height: 230px;
+    width: 400px;
+    backdrop-filter: blur(40px);
+    border-radius: 50px;
+    padding-inline: 40px;
+    padding-block: 20px;
+	box-shadow: 0 0 20px black;
+    transition: 0.3s;
+}
+.texts2:hover {
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+.texts3 {
+    background: transparent;
+    height: 250px;
+    width: 900px;
+    backdrop-filter: blur(40px);
+    border-radius: 50px;
+    padding-inline: 40px;
+    padding-block: 20px;
+	box-shadow: 0 0 20px black;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
+.texts4 {
+    background: transparent;
+    height: 1200px;
+    width: 900px;
+    backdrop-filter: blur(40px);
+    border-radius: 50px;
+    padding-inline: 40px;
+    padding-block: 20px;
+	box-shadow: 0 0 20px black;
+    transition: 0.3s;
+    margin-top: 50px;
+}
+
