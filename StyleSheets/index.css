@@ -285,3 +285,10 @@ a {
     transition: 1s;
     pointer-events: none;
 }
+
+@media (max-aspect-ratio: 9/16) {
+    .pnlm-title-box {
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+    }
+}
