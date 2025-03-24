@@ -92,7 +92,7 @@ pannellum.viewer('panorama', {
 
         "ScienceLab2": {
             "title": "Science Lab Room",
-            "author": "(Description)",
+            "author": "This well-equipped lab features essential scientific tools, including microscopes and anatomical models, fostering an engaging learning environment. With its hands-on resources, students can explore biological concepts and conduct experiments, enhancing their understanding of science while adapting to their new temporary space. ",
             "hfov": "150",
             "pitch": -3,
             "yaw": 50,
