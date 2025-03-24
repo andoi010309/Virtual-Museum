@@ -1,0 +1,260 @@
+body{
+	background-image: url(../Sources/background.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	user-select: none;
+}
+
+.logo {
+    position: fixed;
+    display: none;
+}
+
+::-webkit-details-marker{
+	float: right;
+	margin-top: 3px;
+}
+
+.text{
+	font-size: 20px;
+}
+.background{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: repeating-linear-gradient(#0504aa, #fdf243);
+	opacity: 50%;
+	z-index: -100;
+}
+body::-webkit-scrollbar {
+    background-color: transparent;
+}
+    
+body::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 50px;    
+}
+    
+body::-webkit-scrollbar-track {
+        margin-block: 20px;
+        margin-right: 5px;
+}
+
+.menuOpen {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding-top: 3px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+
+.backOpen:hover {
+    padding-left: 50px;
+    transition: 0.3s;
+}
+
+.menuClose {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding-top: 3px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    z-index: -10;
+    transition: 0.4s;
+}
+
+.backClose:hover {
+    padding-left: 50px;
+    transition: 0.3s;
+}
+
+.menuContents {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    height: 0px;
+    width: 0px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.menuTitle {
+    font-size: 25px;
+    right: 90px;
+    margin-top: 15px;
+    font-family: sans-serif;
+	color: white;
+}
+
+.menuOptions {
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.menuOption {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding-block: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menuOption:hover {
+    background-color: hsl(0, 0%, 11%);
+    transition: 0.3s;
+}
+
+.Contents {
+	padding-top: 20px;
+	position: fixed;
+	top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+	font-size: 20px;
+	backdrop-filter: blur(40px);
+	border-radius: 50px;
+	border:1px solid black;
+	overflow: hidden;
+	box-shadow: 0 0 20px black;
+}
+
+.textContents {
+	position: fixed;
+	top: 120px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	padding-bottom: 20px;
+	margin-inline: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.textContents::-webkit-scrollbar {
+	position: fixed;
+    background-color: transparent;
+}
+    
+.textContents::-webkit-scrollbar-thumb {
+	position: fixed;
+    background: white;
+    border-radius: 50px;    
+}
+    
+.textContents::-webkit-scrollbar-track {
+	position: fixed;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+
+.detailsContents {
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), /* Bottom right */
+	-5px 5px 5px rgba(0, 0, 0, 0.3); /* Bottom left */
+	width: 700px;
+	padding: 15px;
+	margin-top: -20px;
+}
+
+summary {
+	backdrop-filter: blur(40px);
+	box-shadow: 0 0 20px black;
+	width: 800px;
+	padding: 1em;
+	border-radius: 20px;
+	margin-block: 20px;
+	cursor: pointer;
+	transition: background 0.3s;
+
+	&:hover{
+		background: rgba(0, 0, 255, 0.24);
+	};
+}
+
+
+@media (max-aspect-ratio: 9/16) {
+
+	.SemiTitle {
+		margin-top: -20px;
+	}
+
+    .menuOpen {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding-top: 3px;
+        background: black;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        overflow: hidden;
+    }
+
+
+
+    .Contents {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background: transparent;
+        backdrop-filter: blur(40px);
+        border-radius: 0px;
+        overflow: hidden;
+    }
+
+
+	summary {
+		width: 85%;
+		height: auto;
+	}
+
+	.detailsContents {
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3), /* Bottom right */
+		-5px 5px 5px rgba(0, 0, 0, 0.3); /* Bottom left */
+		width: 80%;
+		padding: 15px;
+		margin-top: -20px;
+		height: auto;
+	}
+
+	.textContents {
+		margin-inline: 0px;
+	}
+
+  }
