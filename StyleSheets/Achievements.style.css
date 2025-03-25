@@ -183,8 +183,8 @@ body::-webkit-scrollbar-track {
 	position: fixed;
 	top: 10%;
     bottom: 10%;
-    left: 10%;
-    right: 10%;
+    left: 8%;
+    right: 8%;
 	font-size: 20px;
 	backdrop-filter: blur(40px);
 	border-radius: 50px;
