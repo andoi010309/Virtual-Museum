@@ -407,6 +407,11 @@ p {
         padding-bottom: 50px;
     }
 
+    .texts4:hover {
+    background: transparent;
+    transition: 0.3s;
+    }
+
     .studentsImg {
         width: 260px;
     }
