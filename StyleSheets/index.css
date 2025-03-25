@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-color: hsl(0, 0%, 5%);
     user-select: none;
+    zoom: 90%;
 }
 
 .logo {
