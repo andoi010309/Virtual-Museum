@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     user-select: none;
+    zoom: 90%;
 }
 
 .logo {
