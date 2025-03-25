@@ -48,6 +48,7 @@ body{
 	color: #fff;
 	margin-left: 350px;
 	user-select: none;
+	zoom: 90%;
 }
 .container{
 	position: fixed;
