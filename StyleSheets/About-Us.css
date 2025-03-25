@@ -264,6 +264,7 @@ p {
     padding-block: 50px;
     justify-content: space-evenly;
     transition: 0.3s;
+    background: linear-gradient(45deg, rgba(0, 0, 255, 0.338), rgba(0, 0, 100, 0.816));
 }
 
 .Info {
@@ -284,6 +285,7 @@ p {
     border-radius: 50px;
     margin-right: 20px;
     padding-block: 20px;
+    background: linear-gradient(95deg, rgba(176, 176, 0, 0.559), rgba(93, 93, 0, 0.532));
 }
 
 .studentsImg {
@@ -296,11 +298,6 @@ p {
     background-color: transparent;
     width: 500px;
     padding-left: 10px;
-}
-
-.studentsInfo:hover {
-    background: rgba(0, 0, 255, 0.603);
-    transition: 0.3s;
 }
 
 
