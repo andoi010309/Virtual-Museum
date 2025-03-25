@@ -426,6 +426,10 @@ p {
         margin-top: 50px;
         padding-block: 50px;
     }
+
+    .studentsInfo:hover {
+	background: transparent;
+    }
     
     .Info {
         align-items: left;
