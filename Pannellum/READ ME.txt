@@ -1,2 +1,2 @@
 FOR THE LOVE OF GOD PLEASE DO NOT MODIFY ANYTHING IN THIS FOLDER.
-pannellum is the core of embedding the photosphere.
+pannellum is the core for embedding the panorama.
