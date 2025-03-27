@@ -1,4 +1,4 @@
-This is a Virtual Museum Website, a virtual tour prototype for our research-10.
+This is a Virtual Museum Website (Prototype), a virtual tour of the EVRSHS New Campus for our research-10.
 
 Just to remind you that this website will still have a constant update due to our research was accepted and being continued.
 further more, the website developer does have a slight passion on making progress with this website and is currenty making things more high quality.
