@@ -9,6 +9,21 @@ body {
     zoom: 90%;
 }
 
+.loadingScreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 5%);
+    color: white;
+    opacity: 100%;
+    z-index: 500;
+}
+
 .logo {
     position: fixed;
     display: none;
