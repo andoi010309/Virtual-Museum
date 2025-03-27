@@ -6,8 +6,8 @@ further more, the website developer does have a slight passion on making progres
 The web developer is not an expert but can still adapt through trial and error.
 
 The members of the Research (Virtual Museum):
--Simuel V. Delector
--Adrian Roelle R. Caspe
--Janelle Marjorie C. Uy
--Alexa Ysabelle V. Mendoza
--Pearl Keiszha S. Saberon
+Simuel V. Delector
+Adrian Roelle R. Caspe
+Janelle Marjorie C. Uy
+Alexa Ysabelle V. Mendoza
+Pearl Keiszha S. Saberon
