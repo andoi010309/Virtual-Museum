@@ -1,7 +1,7 @@
 const loadingScreen = document.getElementById("loadingScreen");
 
-window.onload = function() {
+window.onload = setTimeout(function() {
     loadingScreen.style.opacity = "0%";
     loadingScreen.style.pointerEvents = "none";
     loadingScreen.style.transition = "1s";
-};
+}, 3000)
