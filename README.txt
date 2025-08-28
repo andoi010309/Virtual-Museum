@@ -10,6 +10,9 @@ further more, the website developer does have a slight passion on making progres
 --panorama Krpano
 --Design
 
+[Just checked all of my coding formats after quite a long break, and holy sh8. just how terible my coding was,
+ts is straight chaotic to look at. now i have to try an simplify it but goddamn theres allat to redo]
+
 The web developer is not an expert but can still adapt through trial and error.
 
 The members of the Research (Virtual Museum):
